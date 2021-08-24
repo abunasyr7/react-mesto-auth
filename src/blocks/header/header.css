@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-bottom: 35px;
+    max-width: 880px;
+    border-bottom: 1px solid rgba(94, 94, 94, 0.7);
+}
+
+@media screen and (max-width: 870px) {
+    .header {
+        max-width: 690px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .header {
+        max-width: 100%;
+    }
+}
