@@ -4,6 +4,7 @@
 @import url(blocks/page/page.css);
 @import url(blocks/header/header.css);
 @import url(blocks/header/__logo/header__logo.css);
+@import url(blocks/header/__section/header__section.css);
 @import url(blocks/profile/profile.css);
 @import url(blocks/profile/__info-section/profile__info-section.css);
 @import url(blocks/avatar/avatar.css);
@@ -50,3 +51,15 @@
 @import url(blocks/popup-avatar/__content/popup-avatar__content.css);
 @import url(blocks/popup-delete/__content/popup-delete__content.css);
 @import url(blocks/element/__delete/_active/element__delete_active.css);
+@import url(blocks/login/login.css);
+@import url(blocks/login/__form/login__form.css);
+@import url(blocks/login/__sign-in/login__sign-in.css);
+@import url(blocks/login/__button-container/login__button-container.css);
+@import url(blocks/login/__link/login__link.css);
+@import url(blocks/register/__signin/register__signin.css);
+@import url(blocks/signin/__link/signin__link.css);
+@import url(blocks/header/__email/header__email.css);
+@import url(blocks/popup/__image/popup__image.css);
+@import url(blocks/popup/__form/popup__form.css);
+@import url(blocks/popup/__title-tooltip/popup__title-tooltip.css);
+@import url(blocks/header/__text/header__text.css);
