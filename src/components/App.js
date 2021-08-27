@@ -21,7 +21,7 @@ function App() {
       console.log(isInfoTooltipPopupOpen)
   }
 
-  function closeAllPopups() {
+  function closeInfoTooltip() {
       setIsInfoTooltipPopupOpen(false)
   }
 
@@ -80,7 +80,7 @@ function App() {
         if (token) {
             checkToken();
         }
-    }, []);
+    }, [checkToken]);
 
   return (
         <div className="page">
@@ -102,7 +102,7 @@ function App() {
                 </Route>
             </Switch>
             <InfoTooltip isOpen={isInfoTooltipPopupOpen}
-                         onClose={closeAllPopups} isSuccess={isSuccess}/>
+                         onClose={closeInfoTooltip} isSuccess={isSuccess}/>
         </div>
   );
 }

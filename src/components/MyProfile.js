@@ -25,7 +25,7 @@ function MyProfile () {
             })
             .catch((err) => {
                 console.log(err);
-            }, [])
+            })
 
     }, [])
 
@@ -58,7 +58,7 @@ function MyProfile () {
         setIsAddPlacePopupOpen(false);
         setIsEditAvatarPopupOpen(false);
         setIsEditProfilePopupOpen(false);
-        setSelectedCard(false)
+        setSelectedCard(null)
     }
 
     function handleCardLike(card) {
